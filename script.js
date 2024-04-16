@@ -5,10 +5,10 @@ $(".main-menu li").mouseover(function(){
 })
 
 $(".tab-title ul li:first-child").click(function(){
-    $(".galley .tab-con").hide();
+    $(".gallery .tab-con").hide();
     $(".con-box .tab-con").show();
 })
 $(".tab-title ul li:nth-child(2)").click(function(){
-    $(".galley .tab-con").show();
+    $(".gallery .tab-con").show();
     $(".con-box .tab-con").hide();
 })
