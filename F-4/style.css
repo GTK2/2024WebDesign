@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+/* reset */
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/* 전체 컨테이너 */
+#wrap {
+    width: 100%;
+    background-color: #ddd;
+}
+
+/* header */
+header {
+    position: relative;
+    width: 1340px;
+    height: 100px;
+    background-color: #111;
+}
+.logo {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    background-color: #222;
+}
+.menu {
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    width: 600px;
+    height: 40px;
+    background-color: #333;
+}
